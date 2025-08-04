@@ -22,7 +22,7 @@ export function generatedMetadata({
     {
       name: "keywords",
       content:
-        "Product Designer, UI UX Designer, Web Designer, Shopify Developer, Web Developer, Webflow Expert, Framer Expert, Squarespace, Wix Developer, Fullstack, Mobile Developer, Indie Hacker",
+        "Web Designer, Shopify Developer, Web Developer, Webflow Expert, Framer Expert, Squarespace, Wix Developer, Courses, Communities, Resources, Web Designers",
     },
     { name: "creator", content: "nyomansunima" },
     { name: "publisher", content: "nyomansunima" },
@@ -44,7 +44,7 @@ export function generatedMetadata({
       name: "og:image",
       content:
         image ??
-        "https://cdn.hashnode.com/res/hashnode/image/upload/v1729709107977/6dabcb40-d18e-48cf-a86b-7b423efb6605.png",
+        "https://cdn.hashnode.com/res/hashnode/image/upload/v1754296845681/8803f27d-f16c-45f2-b047-003c259ef3cd.png",
     },
     { name: "og:locale", content: "en_US" },
     { name: "og:type", content: "website" },
