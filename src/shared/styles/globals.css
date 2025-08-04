@@ -1,5 +1,5 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 /* Icons */
 @import url("https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-chubby/css/uicons-solid-chubby.css");
@@ -13,20 +13,17 @@
 
 @theme {
   --font-*: initial;
-  --font-sans: "Inter", sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
+  --font-heading: "Bricolage Grotesque", sans-serif;
+  --font-sans: "DM Sans", monospace;
 
-  --text-sm: 0.84375rem;
-  --text-base: 0.9375rem;
-  --text-lg: 1.03125rem;
-  --text-xl: 1.125rem;
+  --leading-tight: 1.1;
 
   --breakpoint-*: initial;
   --breakpoint-tablet: 40rem;
   --breakpoint-laptop: 64rem;
   --breakpoint-desktop: 80rem;
 
-  --color-background: hsl(0 0 98%);
+  --color-background: hsl(0 0 100%);
   --color-foreground: hsl(0 0 0%);
   --color-surface: hsl(0 0 100%);
   --color-border: hsl(0 0 94%);
@@ -34,7 +31,7 @@
   --color-primary: hsl(0 0 0%);
   --color-primary-foreground: hsl(0 0 98%);
   --color-secondary: hsl(0 0 96%);
-  --color-secondary-foreground: hsl(0 0 10%);
+  --color-secondary-foreground: hsl(0 0 0%);
   --color-link: hsl(221 83 50%);
   --color-accent: hsl(0 0 40%);
 }
