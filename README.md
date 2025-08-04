@@ -1,4 +1,4 @@
-# React router site starter
+# The gridline site
 
 _"Minimal react router site starter template for building landing page, marketing sites, and portfolios"_
 
