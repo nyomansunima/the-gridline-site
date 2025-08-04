@@ -8,6 +8,3 @@ export * from "./ui/dialog"
 
 export * from "./content"
 export * from "./centered-layout"
-export * from "./footer"
-export * from "./header"
-export * from "./menu"
