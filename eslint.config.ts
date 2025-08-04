@@ -18,6 +18,7 @@ export default combine(
       "react-hooks-extra/no-direct-set-state-in-use-effect": "off",
       "react-refresh/only-export-components": "off",
       "react/no-unstable-context-value": "off",
+      "react/no-array-index-key": "off",
     },
   }),
 )
