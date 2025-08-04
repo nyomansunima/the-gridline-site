@@ -15,14 +15,8 @@ export function loadConfig() {
     app: {
       host: ENV.APP_HOST || "http://localhost:5173",
     },
-    posthog: {
-      key: ENV.POSTHOG_KEY,
-    },
     verification: {
       google: ENV.GOOGLE_VERIFICATION,
-    },
-    kit: {
-      key: ENV.KIT_API_KEY,
     },
   } as const
 }
