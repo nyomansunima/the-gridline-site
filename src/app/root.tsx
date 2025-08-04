@@ -9,7 +9,7 @@ import {
   useLoaderData,
 } from "react-router"
 import "@shared/styles/globals.css"
-import { Button, CenteredLayout, Footer, Header } from "@shared/components"
+import { Button, CenteredLayout } from "@shared/components"
 import { loadServerEnv } from "@shared/libs"
 
 interface LayoutProps {
@@ -35,11 +35,9 @@ export function Layout({ children }: LayoutProps) {
       </head>
       <body>
         <CenteredLayout>
-          <Header />
           <div className="min-h-screen pb-28 mt-5 tablet:mt-10 tablet:pb-56">
             {children}
           </div>
-          <Footer />
         </CenteredLayout>
         <ScrollRestoration />
         <Scripts />
