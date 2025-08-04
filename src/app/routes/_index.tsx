@@ -1,24 +1,28 @@
+import {
+  AboutSection,
+  CTASection,
+  HeroSection,
+  ResourceSection,
+  TopicSection,
+} from "@features/landing"
 import { generatedMetadata } from "@shared/libs"
 
 export function meta() {
   return generatedMetadata({
-    title: "YOUR_TITLE | YOUR_SITE",
-    description: "YOUR_SITE_DESCRIPTION",
+    title: "Grow Your Web Design Skills | The Gridline",
+    description:
+      "Top web designers communities to share and grow togethers. Level up your web design skills and earn more.",
   })
 }
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col gap-20">
-      <div className="flex flex-col text-center justify-center">
-        <p className="font-mono tracking-tight">__Starter site__</p>
-        <p className="mt-6 leading-relaxed text-foreground/60">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          repellat qui vitae laboriosam. A, quae nostrum. Ut aut dicta deleniti
-          praesentium nesciunt, laboriosam, mollitia, exercitationem vitae
-          asperiores reprehenderit ullam repellat.
-        </p>
-      </div>
+    <main className="flex flex-col">
+      <HeroSection />
+      <AboutSection />
+      <TopicSection />
+      <ResourceSection />
+      <CTASection />
     </main>
   )
 }
