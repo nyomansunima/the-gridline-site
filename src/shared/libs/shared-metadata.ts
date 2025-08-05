@@ -44,7 +44,7 @@ export function generatedMetadata({
       name: "og:image",
       content:
         image ??
-        "https://cdn.hashnode.com/res/hashnode/image/upload/v1754296845681/8803f27d-f16c-45f2-b047-003c259ef3cd.png",
+        "https://cdn.hashnode.com/res/hashnode/image/upload/v1754382027156/98bf3e73-7bc5-489a-bf26-e3d681c55333.png",
     },
     { name: "og:locale", content: "en_US" },
     { name: "og:type", content: "website" },
