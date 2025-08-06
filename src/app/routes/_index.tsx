@@ -1,10 +1,4 @@
-import {
-  AboutSection,
-  CTASection,
-  HeroSection,
-  ResourceSection,
-  TopicSection,
-} from "@features/landing"
+import { HeroSection } from "@features/landing"
 import { generatedMetadata } from "@shared/libs"
 
 export function meta() {
@@ -19,10 +13,6 @@ export default function HomePage() {
   return (
     <main className="flex flex-col">
       <HeroSection />
-      <AboutSection />
-      <TopicSection />
-      <ResourceSection />
-      <CTASection />
     </main>
   )
 }
