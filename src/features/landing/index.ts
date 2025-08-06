@@ -1,5 +1,1 @@
 export * from "./hero-section"
-export * from "./cta-section"
-export * from "./resource-section"
-export * from "./about-section"
-export * from "./topic-section"
