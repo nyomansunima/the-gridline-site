@@ -1,18 +1,22 @@
-import { loadConfig } from "./config"
-
-interface GeneratedMetadataInput {
-  title: string
-  description: string
-  image?: string
-}
+type GeneratedMetadataInput = {
+  title: string;
+  description: string;
+  image?: string;
+};
 
 export function generatedMetadata({
   title,
   description,
   image,
-}: GeneratedMetadataInput) {
-  const config = loadConfig()
-
+}: GeneratedMetadataInput):
+  | (
+      | React.DetailedHTMLProps<
+          React.MetaHTMLAttributes<HTMLMetaElement>,
+          HTMLMetaElement
+        >
+      | undefined
+    )[]
+  | undefined {
   return [
     { title },
     {
@@ -22,12 +26,12 @@ export function generatedMetadata({
     {
       name: "keywords",
       content:
-        "Web Designer, Shopify Developer, Web Developer, Webflow Expert, Framer Expert, Squarespace, Wix Developer, Courses, Communities, Resources, Web Designers",
+        "Product Designer, UI UX Designer, Web Designer, Shopify Developer, Web Developer, Webflow Expert, Framer Expert, Squarespace, Wix Developer, Fullstack, Mobile Developer, Indie Hacker",
     },
     { name: "creator", content: "nyomansunima" },
     { name: "publisher", content: "nyomansunima" },
     { name: "application-name", content: "Nyoman Sunima" },
-    { name: "google-site-verification", content: config.verification.google },
+    { name: "google-site-verification", content: "" },
     { name: "category", content: "Websites" },
     { name: "generator", content: "React Router" },
     { name: "pinterest-rich-pin", content: "true" },
@@ -66,5 +70,5 @@ export function generatedMetadata({
         image ??
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1729709107977/6dabcb40-d18e-48cf-a86b-7b423efb6605.png",
     },
-  ]
+  ];
 }
