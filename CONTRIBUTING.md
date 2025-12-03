@@ -4,23 +4,40 @@ Thank you for your interest in contributing to this project. Your help in making
 
 ## Getting Started
 
-Before you begin contributing, please read the README.md file to understand the project and its goals. If you have any questions, feel free to ask in the Issues section.
+Before you begin contributing, please read the [README](./README.md) file to understand the project and its goals. If you have any questions, feel free to ask in the Issues section.
+
+### Prerequisites:
+
+Before starting to contribute and run this project on your local machine, make sure you're install dependencies and this following tools.
+
+- [Nodejs](https://nodejs.org)
+- [Bun](https://bun.sh)
+- [Git](https://git-scm.com)
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository:
-   ```bash
-     git clone https://github.com/nyomansunima/react-router-site-starter.git
+1. Clone the repository by running the command below.
+   ```sh
+     git clone https://github.com/moonospace/gridline.git
    ```
-2. Install the dependencies by run
-   ```bash
-     npm install --legacy-peer-deps --silent
+2. Install the dependencies by run this command.
+   ```sh
+     npm install
    ```
-3. Start the development server
-   ```bash
+3. Now, you can start the development server by run this following command.
+   ```sh
      npm run dev
    ```
 4. Open the application in your browser.
+
+For more detail, you can see the full of command below.
+
+| Command           | Description                       |
+| :---------------- | :-------------------------------- |
+| `npm install`     | Installs project dependencies     |
+| `npm run dev`     | Starts the development server     |
+| `npm run build`   | Builds the project for production |
+| `npm run preview` | Previews the production build     |
 
 ## Issues and Pull Requests
 
