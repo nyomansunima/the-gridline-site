@@ -31,11 +31,13 @@ export function generatedMetadata({
     { name: "creator", content: "nyomansunima" },
     { name: "publisher", content: "nyomansunima" },
     { name: "application-name", content: "Nyoman Sunima" },
-    { name: "google-site-verification", content: "" },
+    {
+      name: "google-site-verification",
+      content: "ExMdZyTV546ra7lJyflHGb5OsmPZp06aIGhpNaH7lgk",
+    },
     { name: "category", content: "Websites" },
-    { name: "generator", content: "React Router" },
+    { name: "generator", content: "Tanstack start" },
     { name: "pinterest-rich-pin", content: "true" },
-
     {
       name: "og:title",
       content: title,
@@ -52,7 +54,6 @@ export function generatedMetadata({
     },
     { name: "og:locale", content: "en_US" },
     { name: "og:type", content: "website" },
-
     {
       name: "twitter:title",
       content: title,
@@ -68,7 +69,7 @@ export function generatedMetadata({
       name: "twitter:image",
       content:
         image ??
-        "https://cdn.hashnode.com/res/hashnode/image/upload/v1729709107977/6dabcb40-d18e-48cf-a86b-7b423efb6605.png",
+        "https://cdn.hashnode.com/res/hashnode/image/upload/v1754382027156/98bf3e73-7bc5-489a-bf26-e3d681c55333.png",
     },
   ];
 }
